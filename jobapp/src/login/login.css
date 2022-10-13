@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+/* GoogleFonts
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'PT Sans', sans-serif;
+*/
+
+.logIn{
+    margin: 3vh auto;
+    width: 40vw;
+}
+
+.logInForm{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    text-align: center;
+    margin: 18vh auto;
+}
+
+.welcome{
+    font-family: 'Bebas Neue', cursive;
+    color:#43b49e;
+    font-size: 4.2em;
+    margin-bottom: 4vh;
+}
+
+.icon{
+    color: grey;
+}
+
+.btnLogIn{
+    background-color: #43b49e;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.4em;
+    color:#fff;
+    margin-top: 5vh;
+    height: 5.5vh;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.43) 3px 3px 8px 2px;
+}
+
+input{
+    border: none;
+    width: 90%;
+}
+
+label{
+    border-bottom: gray solid;
+    width: 100%;
+}
+
+.helpLogIn{
+    text-align: end;
+    margin-top: -4vh;
+}
