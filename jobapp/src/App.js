@@ -9,7 +9,7 @@ function App() {
       <Logo/>
       <SignIn/>
     </div>
-  );
+  )
 }
 
 export default App;

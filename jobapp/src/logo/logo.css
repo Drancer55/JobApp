@@ -1,8 +1,18 @@
 .jobApp{
-    height: 50vh;
+    background-image: url('../assets/logo/Triangulo.png');
+    background-size: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    padding: 9vh;
+    height: 100vh;
+    max-width: max-content;
 }
 
-.logo{
-    background-color: #43b49e;
-    height: 50vh;
+div .logo{
+    margin: 20vh 10vh;
+    height: 30vh;
+    width: 20;
+    align-items: center;
+    justify-content: center;
 }

@@ -5,8 +5,9 @@
 */
 
 .logIn{
-    margin: 3vh auto;
-    width: 40vw;
+    margin: 0 auto;
+    height: 100vh;
+    min-height: max-content;
 }
 
 .logInForm{
@@ -15,17 +16,18 @@
     flex-flow: column wrap;
     text-align: center;
     margin: 18vh auto;
+    width: 50vh;
 }
 
 .welcome{
     font-family: 'Bebas Neue', cursive;
     color:#43b49e;
-    font-size: 4.2em;
+    font-size: 3em;
     margin-bottom: 4vh;
 }
 
 .icon{
-    color: grey;
+    color: rgba(128, 128, 128, 0.566);
 }
 
 .btnLogIn{
@@ -43,15 +45,20 @@
 
 input{
     border: none;
-    width: 90%;
+    width: 85%;
 }
 
 label{
+    margin: 0 auto;
     border-bottom: gray solid;
-    width: 100%;
+    width: 80%;
 }
 
 .helpLogIn{
-    text-align: end;
-    margin-top: -4vh;
+    text-align: right;
+    margin-top: 2vh auto;
+}
+
+.field{
+    margin: 0 auto;
 }

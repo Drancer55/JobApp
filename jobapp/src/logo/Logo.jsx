@@ -4,10 +4,8 @@ import './logo.css';
 
 const Logo = () => {
     return (
-        <div>
-            <div className="jobApp">
+        <div className="jobApp">
             <img src={logo} alt="logo" className="logo"/>
-            </div>
         </div>
     )
 }
